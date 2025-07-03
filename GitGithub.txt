@@ -3,3 +3,8 @@ git init
 git status 
 git add <folder name> or git add .
 git commit -m "first commit"
+git branch -M main  # Renames 'master' to 'main'
+git remote add origin <remote-repo-url>
+
+git push -u origin main  # First push (sets upstream)
+git push                # Subsequent pushes
