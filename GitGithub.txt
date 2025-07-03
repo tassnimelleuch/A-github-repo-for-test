@@ -27,3 +27,15 @@ git checkout <existing branch name>
 
 
 HELLOOO THIS IS A LINE FOR THE NEW BRANCH 
+
+
+
+git checkout main               # Switch to main  
+git merge feature/your-branch   # Merge your branch  
+git push origin main            # Push updates  
+git checkout feature/your-branch  
+git rebase main                # Replay your commits on top of main  
+git checkout main  
+git merge feature/your-branch   # Fast-forward merge  
+
+PS C:\Users\TASNIM\Desktop\gitgithub> git log main..tasnim  # Show commits unique to your branch      
