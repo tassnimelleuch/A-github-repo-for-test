@@ -8,3 +8,22 @@ git remote add origin <remote-repo-url>
 
 git push -u origin main  # First push (sets upstream)
 git push                # Subsequent pushes
+# We use tags to know each version
+git tag -a v1.0.0 -m "Stable release"  # Tags the LATEST commit
+git push origin v1.0.0                 # Sends tag to GitHub
+
+git log #knows the commit's hash 
+
+# fixing tags 
+git tag -d v1.0.0  
+git push origin --delete v1.0.0
+git tag -a v1.0.0 <correct-commit-hash>  
+git push origin v1.0.0
+
+( use q after git log)
+
+git checkout -b <new branch name>
+git checkout <existing branch name>
+
+
+HELLOOO THIS IS A LINE FOR THE NEW BRANCH 
