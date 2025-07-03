@@ -1,1 +1,5 @@
-Hello this is a testing code line .
+Hello this is a testing code line 
+git init
+git status 
+git add <folder name> or git add .
+git commit -m "first commit"
